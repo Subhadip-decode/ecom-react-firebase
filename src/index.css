@@ -44,6 +44,7 @@ body {
   align-items: center;
   padding: 20px;
   flex-wrap: wrap;
+  margin: 8px;
 }
 
 .products-container .product-card {
@@ -101,4 +102,17 @@ body {
   margin-bottom: 2px;
   border-radius: 2%;
   outline: none;
+}
+
+.logout-btn {
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: hidden;
+  background-color: #2eca8b;
+  margin-left: 10px;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { authz } from '../config/Config';
 import { Link,useNavigate } from 'react-router-dom';
-export const Login = () => {
+export const Login = (props) => {
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [error,setError] = useState('');
